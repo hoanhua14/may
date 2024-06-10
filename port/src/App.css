@@ -14,14 +14,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  color: rgb(16, 125, 203);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  font-weight: bold;
 }
 
 .App-link {
@@ -47,5 +44,4 @@
   max-width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
   display: inline-block;
-
 }
