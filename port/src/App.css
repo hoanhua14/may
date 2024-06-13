@@ -45,3 +45,17 @@
   height: auto; /* Maintain aspect ratio */
   display: inline-block;
 }
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  color: blue;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.profile-pic {
+  max-height: 20%;
+}
