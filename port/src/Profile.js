@@ -1,10 +1,10 @@
-import pic from "./images/pic.png";
+import coder from "./images/coder.png";
 import { ReactTyped } from "react-typed";
 const Profile = () => {
   return (
     <div className="profile">
       <div>
-        <img className="profile-pic" src={pic} alt="pic" />
+        <img className="profile-pic" src={coder} alt="pic" />
       </div>
       <div>
         <ReactTyped

@@ -59,3 +59,9 @@
 .profile-pic {
   height: 500px;
 }
+
+.hr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
