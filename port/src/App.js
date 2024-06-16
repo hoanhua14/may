@@ -2,6 +2,7 @@
 import "./App.css";
 import Header from "./Header.js";
 import Profile from "./Profile.js";
+import Exp from "./Exp.js";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         </div>
         <div style={{ backgroundColor: "#f2f2f2" }}>
           <Profile />
+          <Exp />
         </div>
       </div>
     </>
