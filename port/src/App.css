@@ -60,8 +60,15 @@
   height: 500px;
 }
 
-.hr {
+.degrees {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.degree {
+  max-height: 40%;
+  max-width: 40%;
+  border-radius: 20px;
+  outline: black solid 5px;
 }
