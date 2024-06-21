@@ -66,9 +66,32 @@
   justify-content: space-evenly;
 }
 
-.degree {
+.degrees > * {
   max-height: 40%;
   max-width: 40%;
   border-radius: 20px;
   outline: black solid 5px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.projects > * {
+  display: flex;
+  flex: 2 2 5px;
+  width: 80%;
+  outline: black solid 2px;
+  border-radius: 20px;
+}
+
+.intro {
+  width: 33%;
+}
+
+.description {
+  width: 66%;
 }
