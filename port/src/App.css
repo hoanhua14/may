@@ -47,6 +47,7 @@
 }
 
 .profile {
+  margin: 0 2% 2% 2%;
   display: flex;
   justify-content: space-around;
   display: flex;
@@ -90,8 +91,13 @@
 
 .intro {
   width: 33%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
 }
 
 .description {
   width: 66%;
+  text-align: left;
+  line-height: 25px;
 }
