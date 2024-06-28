@@ -101,3 +101,7 @@
   text-align: left;
   line-height: 25px;
 }
+
+.link-pointer {
+  cursor: pointer;
+}

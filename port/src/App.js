@@ -2,10 +2,11 @@
 import "./App.css";
 import Header from "./Header.js";
 import Profile from "./Profile.js";
-import Exp from "./Exp.js";
+import Projects from "./Projects.js";
 import Edu from "./Edu.js";
 import Skills from "./Skills.js";
 import Contact from "./Contact.js";
+import { Element } from "react-scroll";
 function App() {
   return (
     <>
@@ -14,10 +15,18 @@ function App() {
           <Header />
         </div>
         <div style={{ backgroundColor: "#f2f2f2" }}>
-          <Profile />
-          <Exp />
-          <Edu />
-          <Skills />
+          <Element name="profile">
+            <Profile />
+          </Element>
+          <Element name="projects">
+            <Projects />
+          </Element>
+          <Element name="edu">
+            <Edu />
+          </Element>
+          <Element name="skills">
+            <Skills />
+          </Element>
           <Contact />
         </div>
       </div>

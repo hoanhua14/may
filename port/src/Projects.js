@@ -36,7 +36,7 @@ const projects = [
   },
 ];
 
-const Exp = () => {
+const Projects = () => {
   return (
     <div className="projects">
       {projects.map((project, index) => (
@@ -62,4 +62,4 @@ const Exp = () => {
     </div>
   );
 };
-export default Exp;
+export default Projects;
