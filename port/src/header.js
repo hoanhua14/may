@@ -26,6 +26,16 @@ const Header = () => {
           Projects
         </Link>
       </div>
+      <div>
+        <Link
+          to="education"
+          smooth={true}
+          duration={500}
+          className="link-pointer"
+        >
+          Education
+        </Link>
+      </div>
 
       <div>
         <Link to="skills" smooth={true} duration={500} className="link-pointer">
