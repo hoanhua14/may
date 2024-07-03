@@ -5,7 +5,6 @@ import Profile from "./Profile.js";
 import Projects from "./Projects.js";
 import Edu from "./Edu.js";
 import Skills from "./Skills.js";
-import Contact from "./Contact.js";
 import { Element } from "react-scroll";
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
           <Element name="skills">
             <Skills />
           </Element>
-          <Contact />
         </div>
       </div>
     </>

@@ -42,6 +42,21 @@ const Header = () => {
           Skills
         </Link>
       </div>
+      <div>
+        <a href="https://www.linkedin.com/in/hoanhua/">
+          <img
+            src="https://img.icons8.com/doodle/48/linkedin--v2.png"
+            alt="linkedin"
+          ></img>
+        </a>
+
+        <a href="https://github.com/hoanhua14">
+          <img
+            src="https://img.icons8.com/doodle/48/github--v1.png"
+            alt="github"
+          ></img>
+        </a>
+      </div>
     </div>
   );
 };

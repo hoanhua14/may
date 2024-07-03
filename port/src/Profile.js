@@ -6,12 +6,7 @@ const Profile = () => {
       <div>
         <img className="profile-pic" src={coder} alt="pic" />
       </div>
-      <a href="https://www.linkedin.com/in/hoanhua/">
-        <img
-          src="https://img.icons8.com/clouds/100/linkedin.png"
-          alt="linkedin"
-        ></img>
-      </a>
+
       <div>
         <ReactTyped
           strings={[
